@@ -1,46 +1,38 @@
-# Zadanie: Gry Wojenne
+Task Description
 
-| Termin oddania | Punkty     |
-|----------------|:-----------|
-| 19.12.2021 23:00   |    10      |
+In this game, two generals each command an army of soldiers and have a sack of gold coins.
+Soldiers
 
---- 
-Przekroczenie terminu o **n** zajęć wiąże się z karą:
-- punkty uzyskania za realizację zadania są dzielone przez **2<sup>n</sup>**.
+Soldiers have:
 
---- 
+    Military rank: Private (value: 1), Corporal (value: 2), Captain (value: 3), and Major (value: 4)
+    Experience
+    Soldier strength is calculated as the product of their rank and experience
+    A soldier dies when their experience reaches 0
+    When experience reaches five times the value of their rank, the soldier is promoted to the next rank, and their experience is reset to 1
 
-W grze biorą udział dwaj generałowie ze swoimi armiami. Każdy generał posiada armię żołnierzy oraz worek ze złotymi monetami.
+Generals
 
-Żołnierze posiadają:
-- stopień wojskowy: szeregowy 
-    (wartość: 1), kapral (wartość: 2), kapitan (wartość: 3) i major (wartość: 4)
-- doświadczenie
-- siła żołnierza jest obliczana jako iloczyn jego stopnia i doświadczenia
-- żołnierz ginie, gdy jego doświadczenie = 0
-- jeżeli doświadczenie osiągnie pięciokrotność wartości stopnia, 
-awansuje na kolejny stopień oraz jego doświadczenie = 1.
+Generals have an initial (limited) number of gold coins. The goal of each general is to have the strongest and most skilled army.
 
-Generałowie posiadają początkową (ograniczoną) liczbę złotych monet.
-Celem generała jest posiadanie największej i najlepiej wyszkolonej armii. 
+A general can:
 
-Generał może:
-- zarządzić manewry swojej armii (lub jej części), które powiększają doświadczenie uczestniczących w nich żołnierzy o 1; manewry kosztują: za każdego żołnierza biorącego udział w manewrach generał płaci wartość (liczbę monet) przypisaną do stopnia wojskowego
-- zaatakować drugiego generała; wygrywa generał, który posiada armię o większej łącznej sile; przegrany przekazuje 10% swojego złota wygrywającemu; każdy żołnierz z armii przegrywającej traci 1 punkt doświadczenia, a z wygrywającej zyskuje jeden; w przypadku remisu każdy generał musi rozstrzelać jednego swojego losowo wybranego żołnierza
-- kupić żołnierzy; koszt żołnierza = 10 *(jego stopień); zakupieni żołnierze posiadają doświadczenie = 1
+    Conduct maneuvers with their army (or part of it), which increases the experience of participating soldiers by 1. Maneuvers cost: for each soldier participating, the general pays an amount equal to the rank value.
+    Attack the other general: The general with the higher total strength of their army wins. The loser transfers 10% of their gold to the winner. Each soldier in the losing army loses 1 experience point, while each soldier in the winning army gains 1 experience point. In the case of a draw, each general must execute one randomly selected soldier from their army.
+    Buy soldiers: The cost of a soldier is 10 * their rank value. Purchased soldiers have an initial experience of 1.
 
-Walczącym generałom przygląda się sekretarz prezydenta. Pisze on raporty dotyczące obu armii. Opisuje wszelkie akcje podjęte przez generałów oraz zmiany poszczególnych żołnierzy.
-Generał wraz ze swoimi zasobami powinien mieć możliwość zapisu i odczytu swojego stanu na / z dysku.
+The Secretary of the President observes the generals and writes reports about both armies. The reports describe all actions taken by the generals and changes in individual soldiers.
 
----
+Each general, along with their resources, should be able to save and load their state from/to disk.
+Evaluation Criteria
 
-W zadaniu oceniane będą:
-- Tworzenie klas: 	10%
-- Kompozycja: 		10%
-- Dziedziczenie: 	20%
-- Implementacje odpowiednich wzorców projektowych: 30%
-- Implementacja opisanych algorytmów:		 20%
-- Polimorfizm: 		10%
+    Class Creation: 10%
+    Composition: 10%
+    Inheritance: 20%
+    Implementation of Design Patterns: 30%
+    Implementation of Described Algorithms: 20%
+    Polymorphism: 10%
 
-### Uwaga
-Projekt powinien również zawierać odpowiednie testy jednostkowe do implementowanej funkcjonalności.
+Notes
+
+The project should also include appropriate unit tests for the implemented functionality.
