@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb9dfe5f-6543-44cd-a34b-0e86781bc37a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Discount30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discount5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeCup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Promotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BasketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="21Feb2Ksnu2aOzlJX6mBz1yXxX3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb9dfe5f-6543-44cd-a34b-0e86781bc37a" name="Changes" comment="" />
+      <created>1637541332553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637541332553</updated>
+    </task>
+    <servers />
+  </component>
+</project>
